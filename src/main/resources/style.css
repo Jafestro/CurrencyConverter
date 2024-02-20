@@ -1,0 +1,22 @@
+* {
+    -fx-font-family: sans-serif;
+    -fx-alignment: center;
+}
+.button {
+    -fx-align-content: center;
+}
+
+.invalid-input {
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+}
+.valid-input {
+    -fx-border-color: green;
+    -fx-border-width: 2px;
+}
+.title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #211d12;
+
+}
