@@ -73,7 +73,7 @@ public class CurrencyView extends Application {
 
         convertButton.addEventHandler(javafx.scene.input.MouseEvent.MOUSE_CLICKED, e -> {
             System.out.println(inputField.getText());
-            if (inputField.getText().matches("\\d*(\\.\\d*)?") && !inputField.getText().equals("") ) {
+            if (inputField.getText().matches("^\\d+(\\.\\d+)?$") && !inputField.getText().equals("") ) {
                 inputField.getStyleClass().add("valid-input");
                 inputField.getStyleClass().remove("invalid-input");
                 controller.convert();
